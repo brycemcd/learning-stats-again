@@ -6,9 +6,23 @@ chronicle my journey back through elementary and mid level statistics in the hop
 
 ## Useful books:
 
+### Text Books (1st principles + good labs)
+
+[Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/)
+
+[OpenIntro Statistics](http://www.amazon.com/dp/1478217200)
+
+
+### Other reference, good learning
+
 [Statistics In a Nutshell](http://www.amazon.com/Statistics-Nutshell-OReilly-Sarah-Boslaugh-ebook/dp/B00A8SNELG/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1399754249&sr=1-1&keywords=statistics+in+a+nutshell)
 
+
 [Machine Learning for Hackers](http://www.amazon.com/Machine-Learning-Hackers-Drew-Conway-ebook/dp/B007A0BNP4/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1399754293&sr=1-1&keywords=machine+learning+for+hackers)
+
+[Data Science for Business](http://www.amazon.com/s/ref=nb_sb_ss_i_0_19?url=search-alias%3Ddigital-text&field-keywords=data%20science%20for%20business&sprefix=data+science+for+bu%2Cdigital-text%2C161&rh=i%3Adigital-text%2Ck%3Adata%20science%20for%20business&ajr=2)
+
+[R cookbook](http://www.amazon.com/s/ref=nb_sb_ss_i_0_6?url=search-alias%3Ddigital-text&field-keywords=r+cookbook&sprefix=r+cook%2Cdigital-text%2C140&rh=n%3A133140011%2Ck%3Ar+cookbook&ajr=2)
 
 ## Useful blogs;
 
