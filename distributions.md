@@ -1,6 +1,6 @@
 # Distributions
 
-+ [Normal](#normal)
++ [Normal](#normal-distribution)
 
 + [Geometric](#geometric)
   + [Bernoulli](#geom-bernoulli)
@@ -45,3 +45,15 @@ A rule of thumb for normal distributions:
 + 68% of observations fall within one standard deviation of the mean
 + 95% of observations fall within two standard deviations of the mean
 + 99.7% of observations fall within three standard deviations of the mean
+
+## Bernoulli Model
+
+Describes a data set with two possible outcomes described as "success" or "failure." Success does not need to be a good thing. For example, a success in an experiment could be that someone dies of an overdose. The success is that one of the binary outcomes has been identified.
+
+![probability of success](http://www.sciweavers.org/tex2img.php?eq=p%20%3D%20P%28success%29&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
+
+mean = p
+
+![standard deviation](http://www.sciweavers.org/tex2img.php?eq=%5Csigma%20%3D%20%20%5Csqrt%7B%20%5Crho%20%281-%5Crho%29%7D%20&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0
+
+
