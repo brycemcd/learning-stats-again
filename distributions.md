@@ -1,15 +1,11 @@
 # Distributions
 
 + [Normal](#normal-distribution)
-
-+ [Geometric](#geometric)
-  + [Bernoulli](#geom-bernoulli)
-  
-+ [Binomial](#binomial)
-
-+ [Negative Binomial](#negative-biomial)
-
-+ [Poisson](#poisson)
++ [Bernoulli](#bernoulli-model)
++ [Geometric](#geometric-distribution)
++ [Binomial](#binomial-distribution)
++ [Negative Binomial](#negative-binomial-distribution)
++ [Poisson](#poisson-distribution)
 
 ## Normal Distribution
 
