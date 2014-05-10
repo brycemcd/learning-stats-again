@@ -6,7 +6,7 @@ chronicle my journey back through elementary and mid level statistics in the hop
 
 ## In this Repo (Table of Contents):
 
-[Distributions](distributions)
+[Distributions](/distributions.md)
 
 ## Useful books:
 
