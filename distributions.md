@@ -54,6 +54,20 @@ Describes a data set with two possible outcomes described as "success" or "failu
 
 mean = p
 
-![standard deviation](http://www.sciweavers.org/tex2img.php?eq=%5Csigma%20%3D%20%20%5Csqrt%7B%20%5Crho%20%281-%5Crho%29%7D%20&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0
+![standard deviation](http://www.sciweavers.org/tex2img.php?eq=%5Csigma%20%3D%20%20%5Csqrt%7B%20%5Crho%20%281-%5Crho%29%7D%20&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
 
+## Geometric Distribution
 
+"The waiting time until a success case occurs"
+
+Probability generally descreases exponentially over time.
+
+Follows a Bernoulli model
+
+P(success) = (1 - p) exp(n-1) * p  where n = number of trials
+
+![mean](http://www.sciweavers.org/tex2img.php?eq=%5Cmu%20%3D%20%20%5Cfrac%7B1%7D%7B%5Crho%7D&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
+
+![variance](http://www.sciweavers.org/tex2img.php?eq=%5Csigma%5E2%20%3D%20%5Cfrac%7B1-%5Crho%7D%7B%5Crho%5E2%7D&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
+
+![standard deviation](http://www.sciweavers.org/tex2img.php?eq=%20%5Csigma%20%3D%20%20%5Csqrt%7B%0A%5Cfrac%7B1-%5Crho%7D%7B%5Crho%5E2%7D%0A%7D%20&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
