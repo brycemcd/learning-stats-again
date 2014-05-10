@@ -21,7 +21,7 @@ Standardized with a Z score for comparison of data with different means and stan
 
 ![definition of Z statistic](http://www.sciweavers.org/tex2img.php?eq=Z%20%3D%20%5Cfrac%7B%28%20x%20-%20%5Cmu%20%29%7D%7B%20%5Csigma%20%20%7D&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
 
-![mu = mean](http://www.sciweavers.org/tex2img.php?eq=%20%5Cmu%20%3D%20mean&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+![mean](http://www.sciweavers.org/tex2img.php?eq=%20%5Cmu%20%3D%20mean&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
 ![Standard Deviation](http://www.sciweavers.org/tex2img.php?eq=%20%5Csigma%20%3D%20Standard%20Deviation&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
 
@@ -71,3 +71,24 @@ P(success) = (1 - p) exp(n-1) * p  where n = number of trials
 ![variance](http://www.sciweavers.org/tex2img.php?eq=%5Csigma%5E2%20%3D%20%5Cfrac%7B1-%5Crho%7D%7B%5Crho%5E2%7D&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
 
 ![standard deviation](http://www.sciweavers.org/tex2img.php?eq=%20%5Csigma%20%3D%20%20%5Csqrt%7B%0A%5Cfrac%7B1-%5Crho%7D%7B%5Crho%5E2%7D%0A%7D%20&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
+
+## Binomial Distribution
+
+Describes k success in n Bernoulli trials
+
+![probabilty](http://www.sciweavers.org/tex2img.php?eq=P%28k%3E%3D1%29%20%3D%20%5Crho%20%5E%20k%20%281-%20%5Crho%20%29%5E%7B%28n-k%29%7D&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
+
+number of ways to choose k successes: [n choose k](http://www.sciweavers.org/tex2img.php?eq=%20%5Cbig%28%5Cfrac%7Bn%7D%7Bk%7D%5Cbig%29%20%20%3D%20%5Cfrac%7Bn%21%7D%7Bk%21%28n-k%29%21%7D&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
+
+General Formula: ![n choose k general]http://www.sciweavers.org/tex2img.php?eq=%20%5Cbig%28%5Cfrac%7Bn%7D%7Bk%7D%5Cbig%29%20%20%3D%20p%5Ek%281-p%29%5E%7Bn-k%7D%20%3D%20%5Cfrac%7Bn%21%7D%7Bk%21%28n-k%29%21%7Dp%5Ek%281-p%29%5E%7Bn-k%7D&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
+
+mean: u = np
+variance: np(1-p)
+![standard deviation](http://www.sciweavers.org/tex2img.php?eq=%20%5Csigma%20%20%3D%20%5Csqrt%7Bn%5Crho%281-%5Crho%29%7D%20&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
+
+4 conditions of a binomial distribution:
+
++ Each trial is independent
++ n = # of trials = fixed number of trials
++ boolean outcome of each trial
++ P(success) = same for each trial
