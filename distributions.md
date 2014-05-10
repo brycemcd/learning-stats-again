@@ -78,9 +78,9 @@ Describes k success in n Bernoulli trials
 
 ![probabilty](http://www.sciweavers.org/tex2img.php?eq=P%28k%3E%3D1%29%20%3D%20%5Crho%20%5E%20k%20%281-%20%5Crho%20%29%5E%7B%28n-k%29%7D&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
 
-number of ways to choose k successes: [n choose k](http://www.sciweavers.org/tex2img.php?eq=%20%5Cbig%28%5Cfrac%7Bn%7D%7Bk%7D%5Cbig%29%20%20%3D%20%5Cfrac%7Bn%21%7D%7Bk%21%28n-k%29%21%7D&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
+number of ways to choose k successes: ![n choose k](http://www.sciweavers.org/tex2img.php?eq=%20%5Cbig%28%5Cfrac%7Bn%7D%7Bk%7D%5Cbig%29%20%20%3D%20%5Cfrac%7Bn%21%7D%7Bk%21%28n-k%29%21%7D&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
 
-General Formula: ![n choose k general]http://www.sciweavers.org/tex2img.php?eq=%20%5Cbig%28%5Cfrac%7Bn%7D%7Bk%7D%5Cbig%29%20%20%3D%20p%5Ek%281-p%29%5E%7Bn-k%7D%20%3D%20%5Cfrac%7Bn%21%7D%7Bk%21%28n-k%29%21%7Dp%5Ek%281-p%29%5E%7Bn-k%7D&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
+General Formula: ![n choose k general](http://www.sciweavers.org/tex2img.php?eq=%20%5Cbig%28%5Cfrac%7Bn%7D%7Bk%7D%5Cbig%29%20%20%3D%20p%5Ek%281-p%29%5E%7Bn-k%7D%20%3D%20%5Cfrac%7Bn%21%7D%7Bk%21%28n-k%29%21%7Dp%5Ek%281-p%29%5E%7Bn-k%7D&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
 
 mean: u = np
 variance: np(1-p)
@@ -92,3 +92,17 @@ variance: np(1-p)
 + n = # of trials = fixed number of trials
 + boolean outcome of each trial
 + P(success) = same for each trial
+
+# Negative Binomial Distribution
+
+Models the probability that the _k_th success will occur on the _n_th trial
+
+Useful for a specific trial cs. needle in a haystack approach like the regular binomial distribution. Answers the question "What't the likelihood the 4th attempt will be successful?
+
+Conditions for distribution:
+
++ Same as binomial distribution plus:
++ last trial is a success
++ All trials are independent!
+
+P(success | last trial) = ![negative binomial probability](http://www.sciweavers.org/tex2img.php?eq=%28%5Cfrac%7Bn-1%7D%7Bk-1%7D%29%5Crho%5Ek%281-%5Crho%29%5E%7Bn-k%7D&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
