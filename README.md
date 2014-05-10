@@ -4,6 +4,10 @@ At one time, when I was in school, I learned statistics pretty well. I've since 
 and data engineering professionally but my 1st principle statistics knowledge is out of practice. This repo will
 chronicle my journey back through elementary and mid level statistics in the hopes that it will help others.
 
+## In this Repo (Table of Contents):
+
+[Distributions](distributions)
+
 ## Useful books:
 
 ### Text Books (1st principles + good labs)
