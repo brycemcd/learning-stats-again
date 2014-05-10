@@ -93,7 +93,7 @@ variance: np(1-p)
 + boolean outcome of each trial
 + P(success) = same for each trial
 
-# Negative Binomial Distribution
+## Negative Binomial Distribution
 
 Models the probability that the _k_th success will occur on the _n_th trial
 
@@ -106,3 +106,17 @@ Conditions for distribution:
 + All trials are independent!
 
 P(success | last trial) = ![negative binomial probability](http://www.sciweavers.org/tex2img.php?eq=%28%5Cfrac%7Bn-1%7D%7Bk-1%7D%29%5Crho%5Ek%281-%5Crho%29%5E%7Bn-k%7D&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
+
+## Poisson Distribution
+
+Estimates the number of rare events in a large population over time. Great for modeling rare cases like heart attacks.
+
+![probability](http://www.sciweavers.org/tex2img.php?eq=P%28k%20events%29%20%3D%20%5Cfrac%7B%0A%20%5Clambda%20%5E%20k%20e%5E%7B-%5Clambda%7D%0A%7D%7Bk%21%7D%20&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
+
+for all k in a real number set
+
+![mean](http://www.sciweavers.org/tex2img.php?eq=%5Cmu%20%3D%20%5Clambda&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
+
+![standard deviation](http://www.sciweavers.org/tex2img.php?eq=%5Csigma%20%3D%20%20%5Csqrt%7B%5Clambda%7D%20&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
+
+lambda is the rate of the rare occurrense
