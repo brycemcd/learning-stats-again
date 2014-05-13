@@ -32,7 +32,7 @@ Visually, inspect a histogram and decide if it "looks" normal.
 #### Q-Q plot
 
 [A Q-Q graph](http://en.wikipedia.org/wiki/Q%E2%80%93Q_plot) displays a plot of two distributions for comparison. For a normal distribution, 
-the data will fall along the x=y line. The data will be concentrated in the middle of the graph with few points falling outside the x=y line.
+the data will fall along the y=x line. The data will be concentrated in the middle of the graph with few points falling outside the y=x line.
 
 ### Bell Curve
 
@@ -56,7 +56,7 @@ mean = p
 
 "The waiting time until a success case occurs"
 
-Probability generally descreases exponentially over time.
+Probability generally decreases exponentially over time.
 
 Follows a Bernoulli model
 
@@ -72,7 +72,7 @@ P(success) = (1 - p) exp(n-1) * p  where n = number of trials
 
 Describes k success in n Bernoulli trials
 
-![probabilty](http://www.sciweavers.org/tex2img.php?eq=P%28k%3E%3D1%29%20%3D%20%5Crho%20%5E%20k%20%281-%20%5Crho%20%29%5E%7B%28n-k%29%7D&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
+![probability](http://www.sciweavers.org/tex2img.php?eq=P%28k%3E%3D1%29%20%3D%20%5Crho%20%5E%20k%20%281-%20%5Crho%20%29%5E%7B%28n-k%29%7D&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
 
 number of ways to choose k successes: ![n choose k](http://www.sciweavers.org/tex2img.php?eq=%20%5Cbig%28%5Cfrac%7Bn%7D%7Bk%7D%5Cbig%29%20%20%3D%20%5Cfrac%7Bn%21%7D%7Bk%21%28n-k%29%21%7D&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
 
@@ -93,7 +93,7 @@ variance: np(1-p)
 
 Models the probability that the _k_th success will occur on the _n_th trial
 
-Useful for a specific trial cs. needle in a haystack approach like the regular binomial distribution. Answers the question "What't the likelihood the 4th attempt will be successful?
+Useful for a specific trial vs needle in a haystack approach like the regular binomial distribution. Answers the question "What's the likelihood the 4th attempt will be successful?
 
 Conditions for distribution:
 
@@ -115,4 +115,13 @@ for all k in a real number set
 
 ![standard deviation](http://www.sciweavers.org/tex2img.php?eq=%5Csigma%20%3D%20%20%5Csqrt%7B%5Clambda%7D%20&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
 
-lambda is the rate of the rare occurrense
+lambda is the rate of the rare occurrence
+
+## t Distribution
+
+Meant for small (< 30-40) observations. As observation numbers grow, t
+approximates a normal distribution.
+
+Degrees of freedom are equal to 1 - the number of observations
+
+## F Distribution
