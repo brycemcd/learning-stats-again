@@ -122,6 +122,20 @@ lambda is the rate of the rare occurrence
 Meant for small (< 30-40) observations. As observation numbers grow, t
 approximates a normal distribution.
 
+The problem with small samples is that the standard error estimate will
+not be as accurate.
+
+** Requires a generally normal looking distribution ** The t
+distribution is symmetric though a single sided test can be performed.
+
 Degrees of freedom are equal to 1 - the number of observations
+
+Confidence intervals for a t distribution can be taken with the
+following equation:  `x +/- t* SE` where x is the sample mean, `t*` is
+the area under the t distribution curve with the given degrees of
+freedom and SE is the standard error.
+
+For a single sample, it works very much like a Z score with a different
+distribution.
 
 ## F Distribution
