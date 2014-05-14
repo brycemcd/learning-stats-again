@@ -139,3 +139,12 @@ For a single sample, it works very much like a Z score with a different
 distribution.
 
 ## F Distribution
+
+A measure of the difference of more than one group. Measures variance
+between groups and observations.
+
+MSG = Mean Square Between Groups (df = k - 1 for k = # of groups)
+MSE = Mean Square Error (df = n - k for number of observations, k number
+of groups)
+
+F = MSG/MSE
