@@ -68,6 +68,8 @@ P(success) = (1 - p) exp(n-1) * p  where n = number of trials
 
 ![standard deviation](http://www.sciweavers.org/tex2img.php?eq=%20%5Csigma%20%3D%20%20%5Csqrt%7B%0A%5Cfrac%7B1-%5Crho%7D%7B%5Crho%5E2%7D%0A%7D%20&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
 
+When computing probabilities/densities in R, use 1-n as the `x` variable. In the openintro stats book (3rd. ed), section 3.3.2 describes the Milgram study. The liklihood the first person will not administer the shock (n = 1) is computed in R as: `dgeom(0, 0.35)`. The liklihood the second person will not administer the shock (i.e. there is one failure before success) is computed in R as: `dgeom(1, 0.35)`.
+
 ## Binomial Distribution
 
 Describes k success in n Bernoulli trials
